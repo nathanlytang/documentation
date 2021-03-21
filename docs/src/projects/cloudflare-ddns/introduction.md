@@ -7,7 +7,7 @@
 </p>
 
 ## Cloudflare-DDNS
-Cloudflare-DDNS is a dynamic DNS client to automatically update Cloudflare's DNS service as your public IP address changes using Cloudflare's API v4 -- no need for a third party dynamic DNS service.  The client will run in most shells, and is best suited to run as a cron job.
+[Cloudflare-DDNS](https://github.com/nathanlytang/cloudflare-ddns) is a dynamic DNS client to automatically update Cloudflare's DNS service as your public IP address changes using Cloudflare's API v4 -- no need for a third party dynamic DNS service.  The client will run in most shells, and is best suited to run as a cron job.
 
 ## Features
 * Easy entry management.  All your records are placed in one file, making it easy to see what is being updated.

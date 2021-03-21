@@ -65,6 +65,14 @@ module.exports = {
                     ]
                 },
                 {
+                    title: 'Inhabit',
+                    collapsable: true,
+                    children: [
+                        '/projects/inhabit/introduction.md',
+                        '/projects/inhabit/setup.md'
+                    ]
+                },
+                {
                     title: 'Steve',
                     collapsable: true,
                     children: [
