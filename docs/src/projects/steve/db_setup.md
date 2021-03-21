@@ -16,7 +16,7 @@ Next, we will create a new MySQL user with a username and password. We will call
 # Use the mysql database to create a new user
 USE mysql;
 
-# Change 'somePassword' to a unique password 
+# Change 'somePassword' to a secure and unique password 
 CREATE USER 'stevebotuser'@'127.0.0.1' IDENTIFIED BY 'somePassword';
 ```
 
@@ -29,7 +29,7 @@ CREATE DATABASE stevebot;
 ## Assign permisisons
 Next, we assign permissions to the user we just created so they have access to the `stevebot` database.
 ```sql
-GRANT ALL PRIVILEGES ON stebot.* TO 'stevebotuser'@'127.0.0.1' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON stevebot.* TO 'stevebotuser'@'127.0.0.1' WITH GRANT OPTION;
 FLUSH PRIVILEGES;
 ```
 
