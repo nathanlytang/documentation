@@ -1,7 +1,7 @@
 const { description } = require('../../package')
 
 module.exports = {
-    base: '/documentation/',
+    base: '/',
     title: 'Nathan\'s Docs',
     description: 'Documentation for all of Nathan\'s public repositories',
     head: [
