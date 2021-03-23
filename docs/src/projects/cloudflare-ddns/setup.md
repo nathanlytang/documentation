@@ -53,3 +53,7 @@
     > `*/5 * * * * /** PATH TO FILE **/cloudflare-ddns/cloudflare-ddns.sh`
 
 7.  You're done!  To test if your client is working, delete the IP records file and change your records to something random in the Cloudflare dashboard.  When the client is next run, your records will be matched with your current IP.
+
+::: danger
+Do not share your API key.  Anyone who has it can make changes to your account.
+:::

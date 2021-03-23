@@ -57,7 +57,6 @@ npm install
 Edit the `.env` file in a text editor and place your Discord token that you grabbed earlier into the DISCORD_TOKEN variable.  Below is the file you will edit:
 ```ini
 DISCORD_TOKEN=<YOUR_DISCORD_BOT_TOKEN_HERE>
-
 DB_HOST=127.0.0.1
 DB_PORT=3306
 DB_DATABASE=stevebot
@@ -88,6 +87,11 @@ DB_PASSWORD=<DATABASE_PASSWORD_HERE>
 
 ## Database Setup
 Steve stores all its information in a database. To set one up, follow [this short guide](db_setup.md).  Once the database has been setup, return here to continue.
+
+Next, we will edit the `.env` file again.  This time, take the password you just created during database setup and edit this line with your new password:
+```ini
+DB_PASSWORD=<DATABASE_PASSWORD_HERE>
+```
 
 ## Running the bot
 The formal set up is complete!  All you need to do to start the bot is run the following command in the terminal:

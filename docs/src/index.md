@@ -3,7 +3,7 @@ home: true
 heroImage: docs.png
 tagline: Documentation for all of Nathan's public repositories
 actionText: Docs →
-actionLink: /projects/introduction.md
+actionLink: /projects/
 # features:
 # - title: Feature 1 Title
 #   details: Feature 1 Description

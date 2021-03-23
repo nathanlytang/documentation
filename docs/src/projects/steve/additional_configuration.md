@@ -18,7 +18,7 @@ Type=simple
 WorkingDirectory=/opt/Steve
 ExecStart=npm run production
 TimeoutStopSec=20
-KillMode=process
+KillMode=mixed
 Restart=on-failure
 
 [Install]
