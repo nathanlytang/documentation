@@ -1,6 +1,6 @@
 ---
 home: true
-# heroImage: 
+heroImage: docs.png
 tagline: Documentation for all of Nathan's public repositories
 actionText: Docs →
 actionLink: /projects/introduction.md
@@ -11,5 +11,5 @@ actionLink: /projects/introduction.md
 #   details: Feature 2 Description
 # - title: Feature 3 Title
 #   details: Feature 3 Description
-footer: 2021 Nathan Tang
+# footer: 2021 Nathan Tang
 ---
