@@ -1,5 +1,8 @@
 # Getting Started
 
+[[toc]]
+
+
 The following document is a tutorial on how to host the bot yourself.  Click [here](https://discord.com/oauth2/authorize?client_id=773117222380896276&permissions=18432&scope=bot) to invite the bot if you do not wish to self host.
 
 ## Install Script
@@ -92,5 +95,5 @@ The formal set up is complete!  All you need to do to start the bot is run the f
 npm run production
 ```
 
-### Additional Configuration
+## Additional Configuration
 Refer [here](additional_configuration.md) for additional configuration, including backups, and setting up background processes/autostart.

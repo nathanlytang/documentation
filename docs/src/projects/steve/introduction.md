@@ -1,5 +1,7 @@
 # Introduction
 
+[[toc]]
+
 <h1 align="center">Steve.</h1>
 <h3 align="center">A Minecraft Server Status Panel</h3>
 <p align="center">

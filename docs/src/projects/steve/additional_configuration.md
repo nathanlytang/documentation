@@ -7,7 +7,7 @@ You can use systemd on Linux to run your bot as a system process.  This allows y
 ```
 [Unit]
 Description=Steve Discord Bot
-After=syslog.target network.target
+After=syslog.target network.target mysql.service
 
 [Service]
 User=YOUR_USERNAME
