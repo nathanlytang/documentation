@@ -3,7 +3,7 @@
 [[toc]]
 
 
-The following document is a tutorial on how to host the bot yourself.  Click [here](https://discord.com/oauth2/authorize?client_id=773117222380896276&permissions=18432&scope=bot) to invite the bot if you do not wish to self host.
+The following document is a tutorial on how to host the bot yourself.  Click [here](https://discord.com/oauth2/authorize?client_id=773117222380896276&permissions=2147502080&scope=applications.commands%20bot) to invite the bot if you do not wish to self host.
 
 ## Install Script
 A script is available [here](https://raw.githubusercontent.com/nathanlytang/Steve/master/scripts/setup.sh) for Linux installations.  If you are using Windows or do not wish to use this script, skip to the next section.
@@ -54,9 +54,11 @@ cp .env.example .env
 npm install
 ```
 
-Edit the `.env` file in a text editor and place your Discord token that you grabbed earlier into the DISCORD_TOKEN variable.  Below is the file you will edit:
+Edit the `.env` file in a text editor.  Place your Discord token that you grabbed earlier into the DISCORD_TOKEN variable.  Right click on the bot in your Discord server member list and click "Copy ID", then paste into the CLIENT_ID variable. Below is the file you will edit:
 ```ini
+CLIENT_ID=<YOUR_BOT_CLIENT_ID>
 DISCORD_TOKEN=<YOUR_DISCORD_BOT_TOKEN_HERE>
+
 DB_HOST=127.0.0.1
 DB_PORT=3306
 DB_DATABASE=stevebot
@@ -64,26 +66,6 @@ DB_USERNAME=stevebotuser
 DB_PASSWORD=<DATABASE_PASSWORD_HERE>
 ```
 **Note**: Remove the `<` and `>` signs when pasting your Discord token.
-
-
-#### Extra Windows Setup
->Skip this section if you are hosting the bot on Linux.  If you are hosting the bot on Windows, a slight modification to the `package.json` file is required.  Below is the section you will modify:
->```json
->"scripts": {
->    "start": "node .",
->    "production": "NODE_ENV=production&&npm start",
->    "development": "NODE_ENV=development&&npm start"
->},
->```
->Open the `package.json` file in a text editor and change the line
->```json
->"production": "NODE_ENV=production&&npm start",
->```
->to 
->```json
->"production": "set NODE_ENV=production&&npm start",
->```
->then save and close the file.
 
 ## Database Setup
 Steve stores all its information in a database. To set one up, follow [this short guide](db_setup.md).  Once the database has been setup, return here to continue.

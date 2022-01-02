@@ -39,4 +39,3 @@ FLUSH PRIVILEGES;
 
 ## Next Steps
 You have finished the database setup! Click [here](getting_started.md#running-the-bot) to continue the rest of the setup.
-
