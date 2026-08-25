@@ -1,0 +1,23 @@
+{
+  "config": {
+    "default": true,
+    // Long prose lines are fine in docs
+    "MD013": false,
+    // Inline HTML is used for badges and centered headers
+    "MD033": false,
+    // Allow duplicate headings across different sections
+    "MD024": { "siblings_only": true },
+    // Docs pages may start with frontmatter instead of a top-level heading
+    "MD041": false,
+    // Heading levels may skip for emphasis in some project docs
+    "MD001": false,
+    // Bare URLs are rare but acceptable
+    "MD034": false,
+    // Badge images in inline HTML have no meaningful alt text
+    "MD045": false,
+    // "here" style links are used throughout the existing docs
+    "MD059": false,
+  },
+  "globs": ["docs/**/*.md", "README.md"],
+  "ignores": ["node_modules/**", ".vitepress/cache/**", ".vitepress/dist/**"],
+}
